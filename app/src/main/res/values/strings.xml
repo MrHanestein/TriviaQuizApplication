@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">DailyTrivia</string>
+
+    <!-- Authentication -->
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="logout">Logout</string>
+
+    <!-- Settings and Leaderboard -->
+    <string name="settings">Settings</string>
+    <string name="leaderboard">Leaderboard</string>
+    <string name="view_leaderboard">View Leaderboard</string>
+    <string name="view_leaderboard_desc">View the leaderboard of top scores</string>
+    <string name="save_settings">Save Settings</string>
+
+    <!-- Trivia and Questions -->
+    <string name="todays_trivia_questions">Today\'s Trivia Questions</string>
+    <string name="question_type">Question Type</string>
+    <string name="topics">Topics</string>
+    <string name="notification_time">Notification Time</string>
+    <string name="select_time">Select Time</string>
+    <string name="trivia_questions_list">A list of trivia questions to answer</string>
+    <string name="number_of_questions">Number of Questions</string> <!-- Added here -->
+
+    <!-- Submitting Answers -->
+    <string name="submit_answers">Submit Answers</string>
+    <string name="submit_answers_desc">Submit your selected answers to see your score</string>
+
+    <!-- Scoring and Sharing -->
+    <string name="score_message">You got %1$d/%2$d correct!</string>
+    <string name="share_score">Share Score</string>
+    <string name="share_score_desc">Share your trivia score with friends</string>
+    <string name="share_via">Share via</string>
+    <string name="share_score_text">I scored %1$d on DailyTrivia!</string>
+
+    <!-- Updating Score in Leaderboard -->
+    <string name="score_updated">Score updated in leaderboard!</string>
+    <string name="score_update_failed">Failed to update score.</string>
+
+    <!-- Notification Time Display -->
+    <string name="notification_time_label">Notification time: %1$s</string>
+    <string name="notification_time_not_set">Notification time: Not set</string>
+    <string name="notification_time_desc">Displays the currently selected notification time</string>
+    <string name="no_notification_time">No notification time set</string>
+
+    <string name="error_fetching_questions">Error fetching questions: %1$s</string>
+    <string name="settings_saved">Settings saved successfully!</string>
+    <string name="settings_save_failed">Failed to save settings.</string>
+
+    <!-- Countdown Timer -->
+    <string name="countdown_desc">Displays a countdown until the next notification</string>
+    <string name="countdown_format">%1$d hours %2$d min %3$d sec until next notification</string>
+    <string name="notification_due_now">Notification is due now!</string>
+    <string name="countdown_quiz">%1$d min %2$d sec left in quiz</string>
+    <string name="time_up">Time is up!</string>
+    <string name="notification_scheduled">Daily notification scheduled for %1$d:%2$02d</string>
+
+    <!-- Missing strings for Finish Quiz screen -->
+    <string name="retry_quiz">Retry Quiz</string>
+    <string name="main_menu">Main Menu</string>
+
+    <!-- Finish Quiz Strings -->
+    <string name="congratulations_passed">Congratulations, you passed!</string>
+    <string name="sorry_failed">Sorry, you failed.</string>
+    <string name="score_details">You answered %1$d/%2$d questions correctly.\nYour score is %3$d%%.</string>
+    <string name="view_history">View History</string>
+</resources>
+

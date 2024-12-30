@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <!-- No data binding variables for now -->
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <!-- Settings Title -->
+            <TextView
+                android:id="@+id/tvSettings"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/settings"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <!-- Button for Number of Questions -->
+            <Button
+                android:id="@+id/btnDummyNumberPicker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select Number of Questions"
+                android:enabled="false"
+                android:background="@drawable/rounded_corner_border"
+                android:padding="12dp"
+                android:minHeight="48dp"
+                app:layout_constraintTop_toBottomOf="@id/tvSettings"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="16dp" />
+
+            <!-- Question Type Label -->
+            <TextView
+                android:id="@+id/tvQuestionType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question_type"
+                android:textSize="16sp"
+                app:layout_constraintTop_toBottomOf="@id/btnDummyNumberPicker"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="24dp" />
+
+            <!-- Spinner for Question Types -->
+            <Spinner
+                android:id="@+id/spinnerQuestionType"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/tvQuestionType"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="8dp"
+                android:minHeight="48dp" />
+
+            <!-- Topic Label -->
+            <TextView
+                android:id="@+id/tvTopics"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/topics"
+                android:textSize="16sp"
+                app:layout_constraintTop_toBottomOf="@id/spinnerQuestionType"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="16dp" />
+
+            <!-- Spinner for Topics -->
+            <Spinner
+                android:id="@+id/spinnerTopics"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/tvTopics"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="8dp"
+                android:minHeight="48dp" />
+
+            <!-- Notification Time -->
+            <TextView
+                android:id="@+id/tvNotificationTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/notification_time"
+                android:textSize="16sp"
+                app:layout_constraintTop_toBottomOf="@id/spinnerTopics"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="16dp" />
+
+            <!-- Selected Notification Time -->
+            <TextView
+                android:id="@+id/tvNotificationTimeValue"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/select_time"
+                android:textSize="16sp"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="12dp"
+                app:layout_constraintTop_toBottomOf="@id/tvNotificationTime"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="8dp" />
+
+            <!-- Save Settings Button -->
+            <Button
+                android:id="@+id/btnSaveSettings"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/save_settings"
+                android:minHeight="48dp"
+                app:layout_constraintTop_toBottomOf="@id/tvNotificationTimeValue"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="24dp" />
+
+            <!-- Dark Mode Toggle Switch -->
+            <Switch
+                android:id="@+id/toggleDarkMode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dark Mode"
+                android:padding="12dp"
+                android:minHeight="48dp"
+                app:layout_constraintTop_toBottomOf="@id/btnSaveSettings"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="16dp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

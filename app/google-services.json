@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "417551873648",
+    "project_id": "dailytriviaquiz-e3007",
+    "storage_bucket": "dailytriviaquiz-e3007.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:417551873648:android:2002d15fad1cea517d66b5",
+        "android_client_info": {
+          "package_name": "com.example.TriviaQuizApplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfSiVtMZrvSgbYZWsz53_kd7ytqFhjXk0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:417551873648:android:4a87fb320f5e61507d66b5",
+        "android_client_info": {
+          "package_name": "com.example.triviaquizapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfSiVtMZrvSgbYZWsz53_kd7ytqFhjXk0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
